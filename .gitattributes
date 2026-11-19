@@ -1,0 +1,2 @@
+# Preserve release bytes on Windows, macOS and Linux for checksum verification.
+* -text

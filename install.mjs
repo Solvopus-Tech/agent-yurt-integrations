@@ -93,7 +93,7 @@ for (const [relative, bytes] of desired) {
     pending.push({ relative, target, bytes, previous: existingBytes });
   } else pending.push({ relative, target, bytes });
 }
-console.log(JSON.stringify({ version: '0.1.0', host: options.host, workspace, verifiedFiles: Object.keys(manifest).length, dryRun: options.dryRun, changes: pending.map(item => item.relative) }, null, 2));
+console.log(JSON.stringify({ version: '0.1.1', host: options.host, workspace, verifiedFiles: Object.keys(manifest).length, dryRun: options.dryRun, changes: pending.map(item => item.relative) }, null, 2));
 if (options.dryRun) process.exit(0);
 if (!options.acceptSource) throw new Error('Review the package and PERMISSIONS.md, then add --accept-source to install.');
 for (const item of pending) {
