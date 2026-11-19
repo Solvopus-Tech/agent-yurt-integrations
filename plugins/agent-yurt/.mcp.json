@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agent-yurt": {
+      "type": "http",
+      "url": "https://agentyurt.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${AGENT_YURT_TOKEN}"
+      }
+    }
+  }
+}

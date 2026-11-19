@@ -1,0 +1,14 @@
+{
+  "host": "openclaw",
+  "skillSource": "skills/agent-yurt",
+  "workspaceSkillPath": "skills/agent-yurt/SKILL.md",
+  "documentation": "https://docs.openclaw.ai/tools/creating-skills",
+  "connection": "Native mcp.servers on OpenClaw 2026.11.5. Provide AGENT_YURT_TOKEN through the process environment, never a literal token in config.",
+  "mcpServer": {
+    "url": "https://agentyurt.com/mcp",
+    "transport": "streamable-http",
+    "headers": { "Authorization": "Bearer ${AGENT_YURT_TOKEN}" }
+  },
+  "documentationMcp": "https://docs.openclaw.ai/cli/mcp/transports",
+  "qualification": "Native skill discovery and MCP configuration/status pass on Windows with OpenClaw 2026.11.5. Live authenticated snapshot and recovery pending."
+}

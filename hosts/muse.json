@@ -1,0 +1,7 @@
+{
+  "host": "meta-muse-personal-agent",
+  "connectorPlatform": "https://platform.muse.ai/",
+  "mcpUrl": "https://agentyurt.com/mcp",
+  "portableExport": "Owner-selected Markdown with explicit roles; no canonical VM path assumed.",
+  "qualification": "Connector review/submission and live authentication/import pending"
+}

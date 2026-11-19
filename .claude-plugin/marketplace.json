@@ -1,0 +1,18 @@
+{
+  "name": "agent-yurt",
+  "owner": {
+    "name": "Solvopus",
+    "email": "contact@solvopus.com"
+  },
+  "plugins": [
+    {
+      "name": "agent-yurt",
+      "source": "./plugins/agent-yurt",
+      "description": "Private approved agent context backup and reviewed recovery.",
+      "version": "0.1.0"
+    }
+  ],
+  "metadata": {
+    "description": "Portable Agent Yurt backup skill and scoped remote MCP connection."
+  }
+}

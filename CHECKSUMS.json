@@ -1,0 +1,15 @@
+{
+  ".claude-plugin/marketplace.json": "f099629ba5c1b3ce375deaa734d411dc8fc4c4e679fd00f4b95090918745699e",
+  "hosts/claude-code.json": "67327bdd7e0698881f82c1d718dd19dc685da2c8ae1c565a47778cc894980939",
+  "hosts/hermes.json": "d59459bff46b10fdc1dd9472b774d4dac8cac4fd4583a2874da9399556588211",
+  "hosts/muse.json": "16da31855f8af589ae450fe502b2f00fcb270575bedab3388ee03c58bca42a09",
+  "hosts/openclaw.json": "f80feb6c31382c1eaa4baa298ce24a31224c2a04378419c59bdfd97cf1a1108e",
+  "install.mjs": "06ea057c20515f46d3ef73a91f8e16040ab51762c84f5f15c53bff7552db4f66",
+  "LICENSE": "e84f953cf3116305c20abd2b6e0bb804736d33aaa34ea1b5eea18184d419e007",
+  "PERMISSIONS.md": "55a0fdb31a092edea69a150965bfcdb5c59b56d5b60790400671b5d459948f38",
+  "plugins/agent-yurt/.claude-plugin/plugin.json": "c02d6e045b27d7e63a6ce2f5e547983583a1a1f3b5b5c720354195189e345e46",
+  "plugins/agent-yurt/.mcp.json": "edd98838b041c16efb7071dd5a698150bc9d1563ee289b77cf1bb282ba16e3dc",
+  "plugins/agent-yurt/skills/agent-yurt/SKILL.md": "8e044484f947f4451358582416b655a9ba71b931d8fa7de4477833fb98227b8e",
+  "README.md": "3bff75b4b221cf4d7475a6de3be7454bc37f3d701bfb39f6b8d6838964c0d300",
+  "skills/agent-yurt/SKILL.md": "8e044484f947f4451358582416b655a9ba71b931d8fa7de4477833fb98227b8e"
+}

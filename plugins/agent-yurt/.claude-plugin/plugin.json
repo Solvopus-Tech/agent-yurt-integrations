@@ -1,0 +1,17 @@
+{
+  "name": "agent-yurt",
+  "version": "0.1.0",
+  "description": "Preserve approved full-fidelity agent context, inspect and recover snapshots, and maintain a private personal cloud.",
+  "author": {
+    "name": "Solvopus",
+    "email": "contact@solvopus.com",
+    "url": "https://solvopus.com"
+  },
+  "homepage": "https://agentyurt.com/guides/mcp",
+  "keywords": [
+    "backup",
+    "memory",
+    "recovery",
+    "mcp"
+  ]
+}

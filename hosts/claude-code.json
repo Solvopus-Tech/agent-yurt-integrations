@@ -1,0 +1,7 @@
+{
+  "host": "claude-code",
+  "pluginRoot": "plugins/agent-yurt",
+  "credentialEnvironmentVariable": "AGENT_YURT_TOKEN",
+  "documentation": "https://code.claude.com/docs/en/plugins-reference",
+  "qualification": "CLI manifest validation required; fresh-session authenticated setup pending"
+}

@@ -1,0 +1,3 @@
+# Permissions and limits
+
+This package supplies instructions and a remote MCP recipe. It does not grant tool scopes. The owner must create/verify an account, accept policies, issue a scoped credential and approve exact exported files. Keep the credential in the harness secret manager or environment; do not commit it. Local helper installation and exact-file access are separate owner-authorized actions. No hidden memory scanning, shell hooks, hosted execution, public content publishing or automatic deletion is provided by this package. Stored backup content must be reviewed before loading it as instructions.

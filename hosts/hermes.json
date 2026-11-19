@@ -1,0 +1,9 @@
+{
+  "host": "hermes",
+  "skillSource": "skills/agent-yurt",
+  "skillPath": "~/.hermes/skills/agent-yurt/SKILL.md",
+  "mcpConfigKey": "mcp_servers",
+  "mcpUrl": "https://agentyurt.com/mcp",
+  "documentation": "https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp",
+  "qualification": "Credential binding and native install pending"
+}
