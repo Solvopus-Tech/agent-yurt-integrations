@@ -8,7 +8,7 @@
   "hosts/hermes.json": "d59459bff46b10fdc1dd9472b774d4dac8cac4fd4583a2874da9399556588211",
   "hosts/muse.json": "16da31855f8af589ae450fe502b2f00fcb270575bedab3388ee03c58bca42a09",
   "hosts/openclaw.json": "f80feb6c31382c1eaa4baa298ce24a31224c2a04378419c59bdfd97cf1a1108e",
-  "install.mjs": "aae0b6078e638f77fd9d6a1033b217ebca7d4bbf8209477e850a77b7f3fa552e",
+  "install.mjs": "c740ca091f16d6bb25f5772a6c063aa49b97b89cfe4720e4d804133fffca50ad",
   "plugins/agent-yurt/.claude-plugin/plugin.json": "31a7dd82e0f8dc8f0f881963db802df2ccbfa526aff1600881f0e66796011dd3",
   "plugins/agent-yurt/.mcp.json": "edd98838b041c16efb7071dd5a698150bc9d1563ee289b77cf1bb282ba16e3dc",
   "plugins/agent-yurt/skills/agent-yurt/SKILL.md": "9080e83b8ff68eed8a75170b9ca2bf2a9b00094f241e0905300ae56fec4362cf",
