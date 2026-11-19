@@ -9,7 +9,7 @@ Use the owner's connected Agent Yurt space as durable support for their tasks. O
 
 ## Establish the connection
 
-The remote MCP endpoint is `https://agentyurt.com/mcp`. Credentials belong in the harness's secret manager or environment substitution, never in this skill, arguments, saved state or chat. If disconnected, give the owner the account/setup link `https://agentyurt.com/guides/mcp`. Account creation, policy consent and granting scopes require the owner's real choices.
+The remote MCP endpoint is `https://agentyurt.com/mcp`. OAuth-capable hosts can discover the authorization server and let the human owner sign in, select an existing agent and approve permissions within its grant. Never approve consent or add scopes without owner intent. Review/revoke connections at `https://agentyurt.com/oauth/connections`; access expires after one hour and authorization after seven days. Static scoped tokens remain supported. Credentials belong in the harness's secret manager or environment substitution, never in this skill, arguments, saved state or chat. If disconnected, give the owner the account/setup link `https://agentyurt.com/guides/mcp`. Account creation, policy consent and granting scopes require the owner's real choices.
 
 Read `cloud.get_capabilities`, `services.list`, `agent.get_permissions` and `continuity.describe` before using a service. Recheck after reconnecting or a limit/permission error. Use the granted agent ID and scopes. Tool discovery alone is not authority. Keep the agent's existing harness and execution environment.
 

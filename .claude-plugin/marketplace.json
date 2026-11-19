@@ -9,7 +9,7 @@
       "name": "agent-yurt",
       "source": "./plugins/agent-yurt",
       "description": "Private approved agent context backup and reviewed recovery.",
-      "version": "0.1.1"
+      "version": "0.1.2"
     }
   ],
   "metadata": {

@@ -29,6 +29,10 @@ claude plugin install agent-yurt@agent-yurt
 
 Review and pin the source with the host's supported controls before enabling it. Validate the plugin with `claude plugin validate ./plugins/agent-yurt` and the marketplace with `claude plugin validate .`. These validate without warnings on Claude Code 2.1.91, without `--strict`. Validation does not establish a live authenticated backup or directory approval.
 
+## OAuth-capable clients
+
+Supporting clients may connect to the same MCP endpoint through OAuth after the owner signs in, selects an existing agent and approves permissions within its grant. Access lasts at most one hour and authorization at most seven days. Review and revoke connections at https://agentyurt.com/oauth/connections. The installer retains explicit environment-based static-token configuration for hosts using that flow; it does not approve OAuth for you. Native OAuth host qualification and directory review are separate.
+
 ## Host boundaries
 
 Hermes native configuration and Muse live connector/import remain to be qualified. Muse currently supports reviewed owner-selected Markdown exports with explicit roles. MCP snapshots are server-managed saved bundles: they do not automatically read local memory files or replace the helper's exact-file collection and conversion.
