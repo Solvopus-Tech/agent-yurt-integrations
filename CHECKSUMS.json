@@ -1,16 +1,16 @@
 {
-  ".claude-plugin/marketplace.json": "1fdb66c3522e98b312aa8501e9a7fee032dd0ae90c88d84a433a9cae05d57d01",
+  ".claude-plugin/marketplace.json": "799faff3ae9ce2478e411a02e2b465a54e8d509b8fa5c2f0c3b359eac48b9b4b",
   ".gitattributes": "f24c9de1e8c198a6c8aebf30d83d78cd640d917fe1b3dd941f2b8b7a6ad25bb4",
   "LICENSE": "e84f953cf3116305c20abd2b6e0bb804736d33aaa34ea1b5eea18184d419e007",
-  "PERMISSIONS.md": "55a0fdb31a092edea69a150965bfcdb5c59b56d5b60790400671b5d459948f38",
-  "README.md": "2d0e6b8384967d06bab1350ca0572d43aa9d7f29e137e48cf00c08eb733b972d",
+  "PERMISSIONS.md": "32e99f43841e5e45198c6dfc01158a3531cbed1cfb623eefc372bb136f461285",
+  "README.md": "9fd7a985f857b41e966bf16f709fa37b2e7f04f704c04a718cbe01dbdb81177d",
   "hosts/claude-code.json": "67327bdd7e0698881f82c1d718dd19dc685da2c8ae1c565a47778cc894980939",
   "hosts/hermes.json": "d59459bff46b10fdc1dd9472b774d4dac8cac4fd4583a2874da9399556588211",
   "hosts/muse.json": "16da31855f8af589ae450fe502b2f00fcb270575bedab3388ee03c58bca42a09",
   "hosts/openclaw.json": "f80feb6c31382c1eaa4baa298ce24a31224c2a04378419c59bdfd97cf1a1108e",
   "install.mjs": "c740ca091f16d6bb25f5772a6c063aa49b97b89cfe4720e4d804133fffca50ad",
-  "plugins/agent-yurt/.claude-plugin/plugin.json": "31a7dd82e0f8dc8f0f881963db802df2ccbfa526aff1600881f0e66796011dd3",
+  "plugins/agent-yurt/.claude-plugin/plugin.json": "12b10555896b06913561bb7b88f8ee53ec94e455ebc1260b19ba6d29b52b2f25",
   "plugins/agent-yurt/.mcp.json": "edd98838b041c16efb7071dd5a698150bc9d1563ee289b77cf1bb282ba16e3dc",
-  "plugins/agent-yurt/skills/agent-yurt/SKILL.md": "9080e83b8ff68eed8a75170b9ca2bf2a9b00094f241e0905300ae56fec4362cf",
-  "skills/agent-yurt/SKILL.md": "9080e83b8ff68eed8a75170b9ca2bf2a9b00094f241e0905300ae56fec4362cf"
+  "plugins/agent-yurt/skills/agent-yurt/SKILL.md": "df11ea8af6b18d81d9d9e13a7b5a0952eb8fd5d7283778300907bd9ea88f8655",
+  "skills/agent-yurt/SKILL.md": "df11ea8af6b18d81d9d9e13a7b5a0952eb8fd5d7283778300907bd9ea88f8655"
 }

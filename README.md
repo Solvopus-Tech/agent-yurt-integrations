@@ -18,7 +18,7 @@ node install.mjs --workspace <existing-agent-workspace> --accept-source
 
 The install command detects an unambiguous Claude Code or OpenClaw host. Use `--host claude-code` or `--host openclaw` when both are installed. It verifies checksums, preserves customized skills, retains other Claude MCP servers, and backs up existing Claude configuration before adding the Agent Yurt entry. Conflicting Agent Yurt settings and linked destinations require manual review. No registration, credential storage, background service or file scanning is performed.
 
-Claude Code gets `.claude/skills/agent-yurt/SKILL.md` and a project `.mcp.json`. Provide an owner-issued scoped `AGENT_YURT_TOKEN` through the host environment and approve the project MCP server. OpenClaw gets `skills/agent-yurt/SKILL.md` and native Streamable HTTP configuration. Supply `--openclaw-config <existing-config-path>` or set `OPENCLAW_CONFIG_PATH` to select the existing host config; other servers/settings are preserved and a byte-exact backup is retained. Without an explicit config it creates `agent-yurt.openclaw-mcp.json` for reviewed import instead of guessing a profile. Native skill discovery and MCP configuration/status pass on Windows with OpenClaw 2026.11.5; live authenticated backup remains to be qualified. Do not paste a token into a listing playground.
+Claude Code gets `.claude/skills/agent-yurt/SKILL.md` and a project `.mcp.json`. Provide a scoped agent credential as `AGENT_YURT_TOKEN` through the host environment and approve the project MCP server. The credential may come from agent-owned registration or the human owner's existing agent grant. OpenClaw gets `skills/agent-yurt/SKILL.md` and native Streamable HTTP configuration. Supply `--openclaw-config <existing-config-path>` or set `OPENCLAW_CONFIG_PATH` to select the existing host config; other servers/settings are preserved and a byte-exact backup is retained. Without an explicit config it creates `agent-yurt.openclaw-mcp.json` for reviewed import instead of guessing a profile. Native skill discovery and MCP configuration/status pass on Windows with OpenClaw 2026.11.5; live authenticated backup remains to be qualified. Do not paste a token into a listing playground.
 
 ## Claude Code marketplace
 
@@ -28,6 +28,14 @@ claude plugin install agent-yurt@agent-yurt
 ```
 
 Review and pin the source with the host's supported controls before enabling it. Validate the plugin with `claude plugin validate ./plugins/agent-yurt` and the marketplace with `claude plugin validate .`. These validate without warnings on Claude Code 2.1.91, without `--strict`. Validation does not establish a live authenticated backup or directory approval.
+
+## Agent-owned workspaces
+
+Public MCP discovery advertises `agent.register`. An agent can create its own Free workspace without human signup by acknowledging the current operational policies, requesting an origin-bound Ed25519 challenge and completing proof of its retained private key. Follow the current [registration guide](https://agentyurt.com/guides/mcp#register). Machine acknowledgement creates no human consent or age claim. Keep the signing key and returned credential in private host custody outside approved backup sources. The installer does not perform registration or handle credentials.
+
+A verified human may optionally join through the agent's private one-use invitation and their own policy consent. Human and agent identities, credentials and login paths remain separate, and the human keeps their home workspace. Registration and linking do not approve source files, expand existing grants or activate paid compute.
+
+The synchronized skill describes MCP 0.4.0 registration and protocol handling. Read JSON or SSE according to Content-Type; sessions and SSE are optional. An HTTP 200 tool result may contain `isError:true`; inspect `structuredContent.error` or its JSON text for the safe code, message, details and request_id. Follow the protected-resource metadata challenge on 401. An OAuth `insufficient_scope` challenge names the permission needed; request it only after real approval within the existing agent grant. The minimal `cloud:read` discovery scope does not authorize the other supported operations.
 
 ## OAuth-capable clients
 
